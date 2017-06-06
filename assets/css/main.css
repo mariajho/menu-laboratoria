@@ -1,0 +1,31 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+
+header{
+	background-color: #db8190;
+	width: 100%;
+	padding: 20px;
+	/*flex*/
+	display: flex; /*Mover elemento padre*/
+	justify-content: space-around;/* mestra elem con la misma separacion entre ellos*/
+	align-items: baseline; /*para centrar la linea de elementos nav*/
+	flex-direction: row; /*pone los elementos en fila*/
+	flex-wrap: wrap; /* evita que si elemento no cabe se deforme*/
+}
+
+header nav a{
+
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	flex-grow: 1; /* me pone los elementos al 100% del contenedor*/
+
+   
+
+}
+
+}
